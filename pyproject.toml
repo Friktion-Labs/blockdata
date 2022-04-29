@@ -1,0 +1,27 @@
+[tool.poetry]
+version = "0.0.0"
+name = "solana-data-scraper"
+homepage = "https://app.friktion.fi"
+repository = "https://github.com/friktion-labs/entropy-explorer"
+description = "Python library for scraping blockchain data from Bitquery"
+authors = ["thiccythot"]
+license = "MIT"
+readme = "README.md"
+documentation = ""
+include = ["bin/*"]
+packages = [
+    { include = "soldata" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.22.3"
+pandas = "^1.4.2"
+requests = "^2.27.1"
+
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
