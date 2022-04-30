@@ -1,5 +1,5 @@
 [tool.poetry]
-version = "0.0.5"
+version = "0.0.6"
 name = "solana-data-scraper"
 homepage = "https://app.friktion.fi"
 repository = "https://github.com/friktion-labs/blockdata"

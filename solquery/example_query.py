@@ -1,5 +1,5 @@
 import os
-from Query import Query
+from query import Query
 
 # Get API key associated with user's environment
 API_KEY = os.environ.get("BITQUERY_API_KEY")
