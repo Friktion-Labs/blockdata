@@ -13,7 +13,7 @@ Copyright (c) 2022 Friktion Labs
 
 # Setup
 
-1. `pip3 install solquery`
+1. `pip3 install solana-data-scraper`
 2. Create an account at https://bitquery.io/
 3. Retrieve API Key
 4. In command line, `export BITQUERY_API_KEY=XXXXXXX`
@@ -22,7 +22,7 @@ Copyright (c) 2022 Friktion Labs
 
 ```
 import os
-from solquery.query import Query
+from solquery.Query import Query
 
 # Get API key associated with user's environment
 API_KEY = os.environ.get("BITQUERY_API_KEY")
